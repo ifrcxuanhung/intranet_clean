@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/theme-1.css" type="text/css" /> <!-- theme file - can be changed -->
+	<!-- js files -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.form.js"></script>
+
+		<script type="text/javascript" src="js/custom.js"></script>
+	<!-- /js files -->
+</head>
+<body>
+	<!-- Head Line: Header, Countdown -->
+
+	<div class="headline-wrapper">
+		<div class="headline">
+			<div class="headline-inner">
+				
+			</div>
+		</div>
+	</div>
+	<!-- /Head Line -->
+	
+	<!-- Content Line -->
+	<div class="contentline">
+    <div class="clear_mr_top"></div>
+		<div class="contentline-inner fixw">
+        
+			<div class="content mr_top">
+				<div class="two-fifth pull-three last"></div>
+				<div class="removemargin"></div>
+                <!-- SECTION 5 -->
+
+				<!-- Sponsors -->
+
+				<div class="sponsors">
+					<img src="img/pics/logo-7.png" alt="" />
+					<img src="img/pics/logo-3.png" alt="" />
+					<img src="img/pics/logo-5.png" alt="" />
+					<img src="img/pics/logo-6.png" alt="" />
+				</div>
+				<!-- /Sponsors -->	
+				
+				<!-- /SECTION 5 -->
+
+				<!-- SECTION 4 -->
+				<h2>Contact & Registration</h2>
+				<div class="contact-form fx_wd_resform">
+					<!-- Contact Form -->
+					<div class="form-wraper fx_wd_resform" id="register-form">
+						<h3>Registration Form</h3>
+						<form action="php/form.php" method="post" class="form" id="contact-form">
+                        <div class="left_resform">
+                        	<div class="field icon-name"><label>*</label><input type="text" name="fields[Name]" placeholder="Nom" class="required fix_wd_txt" /></div>
+                            <div class="field icon-name"><label>*</label><input type="text" name="fields[preName]" placeholder="*PreNom" class="required fix_wd_txt" /></div>
+                            <div class="field icon-email half-size"><label>*</label><input type="text" name="fields[Email]" placeholder="Email" class="required email fix_wd_txt" /></div>
+                            <div style="float:right; padding-right:40px;"><b>* Champs obligatoires</b></div>
+                            
+                        </div>
+                        <div class="right_resform">
+                        	<div class="field icon-name"><input type="text" name="fields[Adresse]" placeholder="Adresse" class="required fix_wd_txt_right" /></div>
+                            <div class="field icon-name"><input type="text" name="fields[Codepostal]" placeholder="Code Postal" class="required fix_wd_txt_right" /></div><div class="field icon-name"><input type="text" name="fields[Ville]" placeholder="Ville" class="required fix_wd_txt_right" /></div>
+                            <div class="field icon-phone half-size"><input type="text" name="fields[Telephone]" placeholder="Telephone" class="required email fix_wd_txt_right" /></div>
+                        </div>
+						<div class="bt_res_form">
+                        	<label><b>Conference</b></label>
+                            <div class="check_resform">
+                            	<div class="row_resform_check"><input name="chk1" type="checkbox" value="chk_list1" class="check_fix_res">IFRC Indexing, 25 October 2012</div>
+                                <div><input name="chk2" type="checkbox" value="chk_list2">IFRC Portfolio Management, Friday 26 October 2012</div>
+                            </div>
+                        </div>	
+						<div class="fix_check_resform">
+                        	<div class="fix_chrcode_resform">
+                            <label><b>Security code</b></label>
+                            <img src="img/CaptchaSecurityImages.jpg">
+                            </div>
+                            <div class="fix_fiel icon-name"><input type="text" name="fields[Adresse]" placeholder="Type code" class="required fix_wd_txtcode" /></div>
+                        </div>	<div class="clear">&nbsp;</div>
+						<div class="bt_resform" align="center">
+                        	<input type="submit" value="Register" />
+                        </div>	
+						</form>
+						<div id="contact-form-success">
+							<!-- Success message -->
+							<p><b>Request Submitted</b></p>
+							<p>We'll send you a quote within 3 working days.</p>
+							<!-- /Success message -->
+						</div>
+
+						<div id="contact-form-error">
+							<!-- Error message -->
+							<p><b>Bad Request</b></p>
+							<p>An error has occurred.</p>
+							<!-- /Error message -->
+						</div>
+					</div>
+
+					<!-- /Contact Form -->
+				</div>
+				
+				<div class="clear">&nbsp;</div>
+				
+				<!-- /SECTION 4 -->
+			</div>
+		</div>
+	</div>
+
+	<!-- /Content Line -->
+
+	<!-- Footer Line -->
+	<div class="footerline">
+		<div class="footerline-inner">
+			
+		</div>
+	</div>
+	<!-- /Footer Line -->
+	
+</body>
+</html>

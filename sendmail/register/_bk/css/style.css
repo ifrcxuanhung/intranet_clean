@@ -1,0 +1,90 @@
+@charset "utf-8";
+* {
+	padding:0px; margin:0px;	
+	outline:none;
+}
+
+body {
+	width:100%;	
+	background:url(../images/bg.jpg) center;
+	
+}
+
+#cotainter {	
+	margin:120px auto;
+	height:286px;
+	width:686px;	
+	background:url(../images/bg_form.png);
+	position:relative;
+}
+
+#logo {
+	margin:10px;	
+}
+
+h1 {
+	font-size:18px;
+	color:#666666;
+	font-weight:900;
+	position:absolute;
+	top:10px;
+	left:200px;	
+}
+
+h2 {
+	font-size:15px;
+	color:#999999;
+	font-weight:900;
+	position:absolute;
+	top:30px;
+	left:200px;	
+}
+
+#register {
+        
+	margin:20px 10px;
+}
+
+#register label {
+	width:80px;
+	float:left;	
+	font-size:13px;
+	margin-top:6px;
+	color:#999999;
+}
+
+#register input[type="text"]{
+	background:url(../images/input.png);
+	width:216px;
+	height:19px;
+	border:none;
+	margin-bottom:3px;		
+	color:#FFF;
+	font-weight:900;
+	font-size:11px;
+	line-height:19px;
+	padding:0px 10px;
+	clear:right;
+	margin:5px 0px;
+}
+
+#register select {
+	width:236px;
+	clear:right;
+	float:left;	
+	height:19px;
+	margin-bottom:5px;
+	font-size:13px;
+	margin-top:5px;
+	color:#666666;
+}
+
+#left {
+	float:left;
+	width:330px;	
+}
+
+#right {
+	float:left;
+	width:330px;	
+}

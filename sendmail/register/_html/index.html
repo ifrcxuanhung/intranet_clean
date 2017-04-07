@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Register</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="cotainter">
+    	<img src="images/logo.gif" id="logo" />
+        <h1>Title</h1>
+        <h2>Subtitle</h2>      
+        <form id="register" name="register" action="" method="post">        	
+        		<label>Nom *</label> <input type="text" name="nom"  />
+                <label>Prénom *</label> <input type="text" name="prenom"  />
+                <label>Email *</label> <input type="text" name="email"  />
+                <label>Adresse </label> <input type="text" name="address"  />
+                <label>Code postal </label> <input type="text" name="code"  />            
+                <label>Ville </label> <input type="text" name="ville"  />
+                <label>Téléphone </label> <input type="text" name="ville"  />
+                <label>Conférence</label>
+                <div id="checkbox">
+            		<input type="checkbox" name="conference[]" /> value 1<br />
+                    <input type="checkbox" name="conference[]" /> value 1<br />
+                </div>
+                <div align="center" class="clear"  >
+                	<br />
+            		<input type="submit" name="submit" value="  Enregister  " onclick="return confirm('Enregistrement effectué')" />
+                    
+                <div >
+                <div align="right">* Champs obligatoires</div>
+                
+        </form>
+    </div><!-- end #container-->
+</body>
+</html>

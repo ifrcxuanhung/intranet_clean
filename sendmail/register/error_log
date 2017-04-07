@@ -1,0 +1,7 @@
+[29-Nov-2012 20:28:10] PHP Warning:  mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Unknown MySQL server host 'local' (0) in /home2/amdnatu1/public_html/ld-communication/sendmail/php/database.php on line 13
+[10-Mar-2013 22:00:37] PHP Warning:  Invalid argument supplied for foreach() in /home2/amdnatu1/public_html/inscription/sendmail/register/register.php on line 74
+[10-Mar-2013 22:05:28] PHP Warning:  Invalid argument supplied for foreach() in /home2/amdnatu1/public_html/inscription/sendmail/register/register.php on line 74
+[10-Mar-2013 22:07:44] PHP Warning:  Invalid argument supplied for foreach() in /home2/amdnatu1/public_html/inscription/sendmail/register/register.php on line 74
+[10-Mar-2013 22:47:14] PHP Parse error:  syntax error, unexpected ';' in /home2/amdnatu1/public_html/inscription/sendmail/register/register.php on line 265
+[10-Mar-2013 22:51:33] PHP Fatal error:  Call to undefined function pre() in /home2/amdnatu1/public_html/inscription/sendmail/register/register.php on line 265
+[11-Mar-2013 02:08:49] PHP Parse error:  syntax error, unexpected ';' in /home2/amdnatu1/public_html/inscription/sendmail/register/register.php on line 35

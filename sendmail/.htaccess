@@ -1,0 +1,7 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+# Options +FollowSymlinks
+# Options +SymLinksIfOwnerMatch
+# Options -Indexes
+# IndexIgnore *.*
+# RewriteEngine On
+# RewriteRule ^([a-zA-Z0-9_-]+)$ http://local/ifrcnews/sendmail/register/register.php?category=$1 [L]
